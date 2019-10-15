@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class hello {
     @RequestMapping("/hello")
     public String test1(){
-        return "jenkins";
+        return "jenkins+111";
     }
 
 }
